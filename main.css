@@ -1,0 +1,94 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+body {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  background-color: #eee;
+}
+.container {
+  width: 80%;
+  margin: 20px auto;
+}
+input {
+  outline: none;
+  border: none;
+  border-radius: 4px;
+  width: 100%;
+  height: 30px;
+  padding: 5px;
+  background-color: #ddd;
+  margin: 10px 0;
+}
+input:focus {
+  background-color: #ccc;
+  transform: scale(1.01);
+}
+button {
+  border: none;
+  background-color: #0068bb;
+  color: #fff;
+  padding: 4px 10px;
+  font-weight: bold;
+  width: 100%;
+  border-radius: 15px;
+  height: 30px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+button:hover {
+  background-color: #0059a1;
+}
+table {
+  width: 100%;
+  text-align: center;
+  margin: 20px 0;
+  background-color: #fff;
+  border: 1px solid #ddd;
+}
+th {
+  text-transform: capitalize;
+  padding: 5px;
+  background-color: #bbbbbb;
+  font-size: 15px;
+}
+
+td {
+  padding: 5px;
+  background-color: #ddd;
+}
+table button {
+  width: fit-content;
+  height: fit-content;
+  font-weight: normal;
+  font-size: 12px;
+}
+.head {
+  text-align: center;
+  margin-bottom: 20px;
+}
+#total {
+  background-color: #bd0d00;
+  color: #fff;
+  padding: 5px;
+  border-radius: 4px;
+  transition: 0.3s;
+}
+#total::before {
+  content: "Total: ";
+}
+.pro-inputs .pro-price input {
+  width: 20%;
+}
+.pro-outputs .searchBtn {
+  display: flex;
+  justify-content: space-between;
+}
+.pro-outputs .searchBtn button {
+  width: 45%;
+}
+#deleteAllBtn {
+  margin-top: 20px;
+}
